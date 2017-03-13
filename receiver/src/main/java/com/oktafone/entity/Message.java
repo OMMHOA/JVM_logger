@@ -1,10 +1,11 @@
-package entity;
+package com.oktafone.entity;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "message")
 public class Message {
+
     @Id
     @GeneratedValue
     private Integer id;

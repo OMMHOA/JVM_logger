@@ -1,6 +1,6 @@
-package dal;
+package com.oktafone.dal;
 
-import entity.Message;
+import com.oktafone.entity.Message;
 import org.springframework.data.repository.CrudRepository;
 
 import javax.transaction.Transactional;
