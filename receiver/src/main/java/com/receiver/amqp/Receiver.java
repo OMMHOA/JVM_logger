@@ -1,10 +1,10 @@
-package com.oktafone.amqp;
+package com.receiver.amqp;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.oktafone.service.MessageService;
+import com.receiver.service.MessageService;
 
 import java.io.UnsupportedEncodingException;
 

@@ -1,6 +1,6 @@
-package com.oktafone;
+package com.receiver;
 
-import com.oktafone.amqp.Receiver;
+import com.receiver.amqp.Receiver;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

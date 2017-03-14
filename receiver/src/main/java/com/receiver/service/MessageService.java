@@ -1,7 +1,7 @@
-package com.oktafone.service;
+package com.receiver.service;
 
-import com.oktafone.dal.MessageDao;
-import com.oktafone.entity.Message;
+import com.receiver.dal.MessageDao;
+import com.receiver.entity.Message;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;

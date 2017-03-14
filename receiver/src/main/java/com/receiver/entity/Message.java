@@ -1,4 +1,4 @@
-package com.oktafone.entity;
+package com.receiver.entity;
 
 import javax.persistence.*;
 
